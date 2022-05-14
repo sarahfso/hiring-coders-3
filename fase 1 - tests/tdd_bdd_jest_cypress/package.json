@@ -1,0 +1,24 @@
+{
+  "name": "tdd-bdd-jest-cypress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest",
+    "jest:watch": "jest --watchAll",
+    "cypress:open": "cypress open",
+    "cypress": "cypress run -b firefox"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0",
+    "cypress": "^9.6.1"
+  }
+}
